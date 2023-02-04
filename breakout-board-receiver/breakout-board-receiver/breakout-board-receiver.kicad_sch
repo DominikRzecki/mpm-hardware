@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid a6b00a6d-12e6-4b14-8c82-b13b18433d88)
+
+  (paper "A4")
+
+  (title_block
+    (title "breakout-board-receiver")
+    (date "2023-02-03")
+    (rev "v1")
+    (comment 1 "erste Version")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
