@@ -1,3 +1,3 @@
 # mpm-hardware
-Mobile power measurement. Hardware
+Mobile power measurement. Hardware repo
 Update
