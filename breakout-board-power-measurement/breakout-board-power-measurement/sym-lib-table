@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCP3911A0-E/SS")(type "Legacy")(uri "${KIPRJMOD}/lib/ul_MCP3911A0-E-SS/KiCAD/2023-03-06_20-07-43/2023-03-06_20-07-43.lib")(options "")(descr ""))
+)

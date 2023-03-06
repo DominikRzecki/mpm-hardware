@@ -3,7 +3,9 @@ close all;
 
 u_eff = 230;
 f = 50; %Grid freq
-i = 0.6 %Required current. ~650mA to power everything if using only the capacitive psu
+p_req = 2.31
+ux = 10
+i = p_req/ux
 
 x = u_eff/i     %Calculating required reactance.
 
