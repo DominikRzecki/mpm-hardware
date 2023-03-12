@@ -1272,52 +1272,6 @@
         )
       )
     )
-    (symbol "Power-Analyzer-rescue:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Power-Analyzer-rescue:CP_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1836,20 +1790,11 @@
   (junction (at 269.24 161.29) (diameter 0) (color 0 0 0 0)
     (uuid 6729c02a-67eb-469b-81ec-79b85501edbd)
   )
-  (junction (at 255.27 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 6ad0d02e-eb56-4dbb-a513-d15418f01b3a)
-  )
   (junction (at 177.165 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 6af8f087-e5a2-4c30-973e-d38a8384deb5)
   )
   (junction (at 237.49 181.61) (diameter 0) (color 0 0 0 0)
     (uuid 6d344b4f-fd0d-42be-b8af-9ab696bbd5a8)
-  )
-  (junction (at 283.21 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 70b70ab2-58b8-4e1b-baf2-3bb03b4eaf09)
-  )
-  (junction (at 283.21 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid 73118b1d-2645-45de-98d4-a66d5b3afddc)
   )
   (junction (at 177.165 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 774a2a52-eccd-45a9-9164-7d2d32369312)
@@ -1878,7 +1823,10 @@
   (junction (at 234.95 184.15) (diameter 0) (color 0 0 0 0)
     (uuid b0479198-2ac2-44d6-bbc6-04a79ed5d1a0)
   )
-  (junction (at 118.11 60.96) (diameter 0) (color 0 0 0 0)
+  (junction (at 129.54 102.87) (diameter 0) (color 0 0 0 0)
+    (uuid b21d19ef-4aa9-4593-9947-d84920606a7a)
+  )
+  (junction (at 88.9 102.87) (diameter 0) (color 0 0 0 0)
     (uuid b6767dfe-7b48-4de4-bcc2-8145b21f7987)
   )
   (junction (at 88.9 60.96) (diameter 0) (color 0 0 0 0)
@@ -1886,9 +1834,6 @@
   )
   (junction (at 261.62 112.395) (diameter 0) (color 0 0 0 0)
     (uuid c3d08815-0bf5-42c1-99b2-dbaa009a844e)
-  )
-  (junction (at 125.73 60.96) (diameter 0) (color 0 0 0 0)
-    (uuid c6cb31ee-7b61-4b26-a60f-41bedc74f182)
   )
   (junction (at 227.33 66.04) (diameter 0) (color 0 0 0 0)
     (uuid d830e91a-d456-4f8a-ab91-f65ae921c8ee)
@@ -1916,7 +1861,7 @@
     (stroke (width 0) (type default))
     (uuid 0059d6d9-79dc-4e59-b43a-75b08d043dac)
   )
-  (wire (pts (xy 101.6 93.98) (xy 101.6 96.52))
+  (wire (pts (xy 114.3 81.28) (xy 114.3 85.09))
     (stroke (width 0) (type default))
     (uuid 0214b564-33b9-4c9e-ae9e-9f4d04678274)
   )
@@ -1962,7 +1907,7 @@
     (stroke (width 0) (type default))
     (uuid 0707fd0c-3f48-483d-9ca3-cbfab037f0f0)
   )
-  (wire (pts (xy 125.73 60.96) (xy 125.73 66.04))
+  (wire (pts (xy 129.54 97.79) (xy 129.54 102.87))
     (stroke (width 0) (type default))
     (uuid 0746c3e1-7d08-452e-ba56-3dbf198b3af4)
   )
@@ -1992,7 +1937,7 @@
     (stroke (width 0) (type default))
     (uuid 0c6a7a63-725c-435d-b373-2b1f3a1f6096)
   )
-  (wire (pts (xy 125.73 60.96) (xy 124.46 60.96))
+  (wire (pts (xy 95.25 102.87) (xy 99.06 102.87))
     (stroke (width 0) (type default))
     (uuid 0c7c1711-6b1e-435c-b5f5-794b94523bee)
   )
@@ -2007,6 +1952,10 @@
   (wire (pts (xy 280.67 67.31) (xy 283.21 67.31))
     (stroke (width 0) (type default))
     (uuid 0f11d4c5-3e1c-4d1e-a0f1-ecfea8610a49)
+  )
+  (wire (pts (xy 101.6 85.09) (xy 107.95 85.09))
+    (stroke (width 0) (type default))
+    (uuid 0f469c5b-134a-43ac-8a7c-560dce499ef0)
   )
   (wire (pts (xy 190.5 143.51) (xy 190.5 139.7))
     (stroke (width 0) (type default))
@@ -2062,7 +2011,7 @@
     (stroke (width 0) (type default))
     (uuid 1c0c85ac-af61-4dc3-a640-188ce91c69c4)
   )
-  (wire (pts (xy 115.57 60.96) (xy 118.11 60.96))
+  (wire (pts (xy 86.36 102.87) (xy 88.9 102.87))
     (stroke (width 0) (type default))
     (uuid 1d2ed2b3-db8b-4e11-887a-439113b423b7)
   )
@@ -2126,9 +2075,13 @@
     (stroke (width 0) (type default))
     (uuid 28be2777-3ec2-4656-988a-aa32e2dac444)
   )
-  (wire (pts (xy 255.27 72.39) (xy 255.27 74.93))
+  (wire (pts (xy 114.3 69.85) (xy 114.3 73.66))
     (stroke (width 0) (type default))
-    (uuid 29fa391b-db07-45c4-a83f-17b6a5b055a1)
+    (uuid 2acb4831-e722-496b-9585-fe144a0a6dd9)
+  )
+  (wire (pts (xy 107.95 85.09) (xy 107.95 69.85))
+    (stroke (width 0) (type default))
+    (uuid 2c8e6875-a1ea-4ac4-8c89-a9124ef89c3a)
   )
   (wire (pts (xy 240.03 151.13) (xy 245.11 151.13))
     (stroke (width 0) (type default))
@@ -2328,7 +2281,7 @@
     (stroke (width 0) (type default))
     (uuid 52ddc87f-3faf-4791-b279-22fc77112ed5)
   )
-  (wire (pts (xy 118.11 60.96) (xy 119.38 60.96))
+  (wire (pts (xy 88.9 102.87) (xy 90.17 102.87))
     (stroke (width 0) (type default))
     (uuid 536e8186-7e40-4b1a-8c3b-99141ea7ddd2)
   )
@@ -2361,6 +2314,10 @@
     (stroke (width 0) (type default))
     (uuid 5dae0ec0-6355-4710-9916-c52a64579505)
   )
+  (wire (pts (xy 127 102.87) (xy 129.54 102.87))
+    (stroke (width 0) (type default))
+    (uuid 5f7e59b5-cfe6-4e9d-8e0b-63bf4eaf937e)
+  )
   (polyline (pts (xy 201.93 90.17) (xy 209.55 90.17))
     (stroke (width 0) (type default))
     (uuid 60ed6c4d-59f9-47ad-8d4f-5ad65a642953)
@@ -2373,6 +2330,10 @@
   (wire (pts (xy 155.575 71.12) (xy 158.115 71.12))
     (stroke (width 0) (type default))
     (uuid 62a3b30f-1e03-49dc-8862-bd5f28fdc8f0)
+  )
+  (wire (pts (xy 119.38 102.87) (xy 121.92 102.87))
+    (stroke (width 0) (type default))
+    (uuid 64676ca5-bb42-40a2-9f24-0c7e2ade947f)
   )
   (wire (pts (xy 287.02 104.14) (xy 287.02 105.41))
     (stroke (width 0) (type default))
@@ -2473,21 +2434,9 @@
     (uuid 760a7c95-76c6-48c4-8e4a-b260892ee4da)
   )
 
-  (wire (pts (xy 101.6 83.82) (xy 101.6 86.36))
-    (stroke (width 0) (type default))
-    (uuid 7674c218-7778-4975-809d-a7b60b9fa68e)
-  )
   (wire (pts (xy 62.23 139.065) (xy 57.15 139.065))
     (stroke (width 0) (type default))
     (uuid 77726400-117a-4c28-a03a-f10a9b70cefe)
-  )
-  (wire (pts (xy 283.21 66.04) (xy 283.21 67.31))
-    (stroke (width 0) (type default))
-    (uuid 78040a37-d43a-4272-8cc4-e972bdef9f99)
-  )
-  (wire (pts (xy 255.27 72.39) (xy 260.35 72.39))
-    (stroke (width 0) (type default))
-    (uuid 79e7005b-5b2a-4e0a-ac5d-b125517776c7)
   )
   (wire (pts (xy 271.78 109.855) (xy 271.78 112.395))
     (stroke (width 0) (type default))
@@ -2547,10 +2496,6 @@
     (uuid 85416e5c-442d-48cc-a191-2e3ed82ba86d)
   )
 
-  (wire (pts (xy 283.21 72.39) (xy 283.21 73.66))
-    (stroke (width 0) (type default))
-    (uuid 854ef7c8-2bb0-47d6-b8e2-a8bbdc32f272)
-  )
   (wire (pts (xy 113.03 177.8) (xy 105.41 177.8))
     (stroke (width 0) (type default))
     (uuid 86d56ec6-36be-4cfc-a00c-346ff7d38eb4)
@@ -2649,6 +2594,10 @@
     (stroke (width 0) (type default))
     (uuid 9d9e7bb1-aa51-4339-926d-6d67f4de0b87)
   )
+  (wire (pts (xy 101.6 83.82) (xy 101.6 85.09))
+    (stroke (width 0) (type default))
+    (uuid 9da73bba-9b46-4e09-8112-30d26d90406e)
+  )
   (wire (pts (xy 265.43 156.21) (xy 270.51 156.21))
     (stroke (width 0) (type default))
     (uuid 9fccf1ed-ae5b-4305-b414-8a3537e7daa6)
@@ -2665,7 +2614,7 @@
     (stroke (width 0) (type default))
     (uuid a0a78bf0-e55f-4799-a44c-f5e2cffba21c)
   )
-  (wire (pts (xy 118.11 60.96) (xy 118.11 66.04))
+  (wire (pts (xy 88.9 97.79) (xy 88.9 102.87))
     (stroke (width 0) (type default))
     (uuid a161cb40-dc7f-43e6-b413-3281500fa0e6)
   )
@@ -2887,7 +2836,7 @@
     (stroke (width 0) (type default))
     (uuid d512b331-9851-40e1-9c1d-7e6a07f4c9e4)
   )
-  (wire (pts (xy 125.73 60.96) (xy 128.27 60.96))
+  (wire (pts (xy 129.54 102.87) (xy 132.08 102.87))
     (stroke (width 0) (type default))
     (uuid d767d4ee-eaf7-4d61-856a-75a95fb2e873)
   )
@@ -2916,6 +2865,10 @@
     (stroke (width 0) (type default))
     (uuid dd8cb481-a72d-4da9-a406-16293993d6fb)
   )
+  (wire (pts (xy 107.95 69.85) (xy 114.3 69.85))
+    (stroke (width 0) (type default))
+    (uuid dddca691-2ff7-4a4f-ae3d-ea708913ce14)
+  )
   (wire (pts (xy 232.41 140.97) (xy 245.11 140.97))
     (stroke (width 0) (type default))
     (uuid debbeb01-48a0-462d-81e6-92f274d63290)
@@ -2935,6 +2888,10 @@
   (wire (pts (xy 232.41 163.83) (xy 232.41 161.29))
     (stroke (width 0) (type default))
     (uuid e1768f77-1906-458e-b286-8129d1532386)
+  )
+  (wire (pts (xy 111.76 102.87) (xy 114.3 102.87))
+    (stroke (width 0) (type default))
+    (uuid e22b4805-a73e-4412-903b-3753321b26a6)
   )
   (wire (pts (xy 101.6 148.59) (xy 101.6 149.86))
     (stroke (width 0) (type default))
@@ -2963,6 +2920,10 @@
   (wire (pts (xy 292.1 140.97) (xy 292.1 148.59))
     (stroke (width 0) (type default))
     (uuid e6d4979e-d78a-4163-a92b-1abe904c626a)
+  )
+  (wire (pts (xy 104.14 102.87) (xy 106.68 102.87))
+    (stroke (width 0) (type default))
+    (uuid e7687d82-3248-46a6-bdcf-121634410bc0)
   )
   (wire (pts (xy 57.15 130.175) (xy 59.69 130.175))
     (stroke (width 0) (type default))
@@ -3005,7 +2966,7 @@
     (stroke (width 0) (type default))
     (uuid f1dff28c-bb17-4e9a-b47f-feb0b83aa2be)
   )
-  (wire (pts (xy 255.27 69.85) (xy 255.27 72.39))
+  (wire (pts (xy 255.27 69.85) (xy 255.27 74.93))
     (stroke (width 0) (type default))
     (uuid f1f8a1b5-044a-40c8-a755-f6f323475d06)
   )
@@ -3165,7 +3126,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6fce9a87-94ab-4630-9b11-74347598547b)
   )
-  (label "voltage_pos" (at 101.6 96.52 270) (fields_autoplaced)
+  (label "voltage_pos" (at 114.3 85.09 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 70e14631-7c03-4692-ad9b-3a18ec2ba1a3)
   )
@@ -3197,8 +3158,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a5f90a22-4357-450f-8839-3cce9f9fcc1c)
   )
-  (label "current_neg" (at 118.11 66.04 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "current_neg" (at 88.9 97.79 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b16d23cd-1775-4b09-bec4-c7646e1db315)
   )
   (label "OSC1_ext" (at 212.09 196.85 180) (fields_autoplaced)
@@ -3225,8 +3186,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dbb5446e-10a5-4ac2-80c8-64fe142ef255)
   )
-  (label "current_pos" (at 125.73 66.04 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "current_pos" (at 129.54 97.79 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dcea2e57-a0fc-457a-9ccf-099d98ebb761)
   )
   (label "~{DR}" (at 212.09 194.31 180) (fields_autoplaced)
@@ -3286,11 +3247,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 578cb276-5301-4ad0-8079-b2fccb5f0689)
   )
-  (hierarchical_label "3.3V" (shape input) (at 283.21 66.04 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 59cb7ed7-52b0-4c19-aa79-ded294a64abb)
-  )
-  (hierarchical_label "LOW_in" (shape input) (at 115.57 60.96 180) (fields_autoplaced)
+  (hierarchical_label "LOW_in" (shape input) (at 86.36 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8e7bbed3-53b6-40f0-abcc-e272d9f44b99)
   )
@@ -3302,19 +3259,19 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e588c270-33fb-4bc9-94d7-0924d58239ef)
   )
+  (hierarchical_label "LOW_out" (shape output) (at 132.08 102.87 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e6f1d877-4257-478b-bb3f-f448313b94fc)
+  )
   (hierarchical_label "HIGH_out" (shape output) (at 59.69 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid eb4786c0-e724-4360-aa5f-a14ec4bb2be7)
-  )
-  (hierarchical_label "GND" (shape input) (at 283.21 73.66 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fa9e6479-3c3d-444b-9e74-d05d18050145)
   )
 
   (symbol (lib_id "power:+3.3V") (at 227.33 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 054ee458-8877-4e08-a9b6-a58bcfff1261)
-    (property "Reference" "#PWR09" (at 227.33 68.58 0)
+    (property "Reference" "#PWR08" (at 227.33 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 227.33 59.69 0)
@@ -3330,7 +3287,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3339,7 +3296,7 @@
   (symbol (lib_id "power:GNDD") (at 247.65 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 071082a5-89d0-40e5-adbf-17a782a88739)
-    (property "Reference" "#PWR016" (at 247.65 209.55 0)
+    (property "Reference" "#PWR012" (at 247.65 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 247.65 208.28 0)
@@ -3355,7 +3312,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3370,7 +3327,7 @@
     (property "Value" "150n/300m" (at 220.98 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 220.98 81.28 0)
+    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 220.98 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.98 81.28 0)
@@ -3390,7 +3347,7 @@
   (symbol (lib_id "power:GNDA") (at 179.705 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1005b47d-8910-48b4-a531-06cfa9127b07)
-    (property "Reference" "#PWR01" (at 186.055 71.12 0)
+    (property "Reference" "#PWR04" (at 186.055 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 183.515 71.755 90)
@@ -3406,7 +3363,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3415,7 +3372,7 @@
   (symbol (lib_id "Device:R_Small") (at 214.63 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 107fcdc5-dd66-44c6-a345-1ee95fc977af)
-    (property "Reference" "R13" (at 212.09 69.215 0)
+    (property "Reference" "R17" (at 212.09 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10E" (at 212.09 71.755 0)
@@ -3432,7 +3389,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R13") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3441,7 +3398,7 @@
   (symbol (lib_id "power:GNDA") (at 179.705 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 133fe562-85fe-4e31-be8f-4f34f0e414b3)
-    (property "Reference" "#PWR02" (at 186.055 93.98 0)
+    (property "Reference" "#PWR05" (at 186.055 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 183.515 94.615 90)
@@ -3457,25 +3414,50 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Variable") (at 101.6 90.17 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 287.02 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 168fa8fa-3dbc-47e0-b0bd-7d2c6b2b6c83)
-    (property "Reference" "R8" (at 104.775 89.535 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10k" (at 104.775 92.075 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical_Hole" (at 99.822 90.17 90)
+    (uuid 143e820a-ecf5-4f10-85eb-e0e5de627654)
+    (property "Reference" "#PWR014" (at 287.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 101.6 90.17 0)
+    (property "Value" "+3.3V" (at 287.02 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 287.02 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 287.02 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 07753aed-7461-4cef-8263-6c5b5c2d5546))
+    (instances
+      (project "breakout-board-power-measurement"
+        (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Variable") (at 114.3 77.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 168fa8fa-3dbc-47e0-b0bd-7d2c6b2b6c83)
+    (property "Reference" "R9" (at 117.475 76.835 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 117.475 79.375 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical_Hole" (at 112.522 77.47 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 114.3 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bf1e2dd4-9deb-4539-bbba-de1a06b22d33))
@@ -3483,7 +3465,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3492,7 +3474,7 @@
   (symbol (lib_id "Device:C_Small") (at 186.69 146.05 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 205d7887-3819-4f57-aed5-328b578d1fb3)
-    (property "Reference" "C6" (at 184.15 145.4086 0)
+    (property "Reference" "C7" (at 184.15 145.4086 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 184.15 147.9486 0)
@@ -3509,7 +3491,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3518,7 +3500,7 @@
   (symbol (lib_id "Device:C_Small") (at 57.15 135.255 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2642eaf2-6345-4a9a-86b1-a2561cbec439)
-    (property "Reference" "C7" (at 54.61 134.6263 0)
+    (property "Reference" "C1" (at 54.61 134.6263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (at 54.61 137.1663 0)
@@ -3535,7 +3517,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C7") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3544,7 +3526,7 @@
   (symbol (lib_id "power:GNDD") (at 110.49 185.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28089cb3-1366-44d2-ad48-1b7d88815c5f)
-    (property "Reference" "#PWR08" (at 110.49 191.77 0)
+    (property "Reference" "#PWR03" (at 110.49 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 110.49 190.5 0)
@@ -3560,7 +3542,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3569,7 +3551,7 @@
   (symbol (lib_id "Device:R_Small") (at 170.815 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f206111-d7fa-4d50-84d2-bd2fd932e999)
-    (property "Reference" "R4" (at 170.815 81.28 90)
+    (property "Reference" "R15" (at 170.815 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 170.815 83.82 90)
@@ -3586,7 +3568,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R4") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3595,7 +3577,7 @@
   (symbol (lib_id "Device:R_Small") (at 88.9 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30a5af63-7262-4bda-b8fe-6d48f7915be3)
-    (property "Reference" "R6" (at 90.805 73.025 0)
+    (property "Reference" "R2" (at 90.805 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150k" (at 90.805 75.565 0)
@@ -3612,7 +3594,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R6") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3627,7 +3609,7 @@
     (property "Value" "Conn_01x07" (at 278.13 153.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" (at 275.59 151.13 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 275.59 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.59 151.13 0)
@@ -3652,7 +3634,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:R_Small") (at 233.045 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 325ee999-2962-47a2-8fed-2c8802f5b1cc)
-    (property "Reference" "R22" (at 232.537 103.378 0)
+    (property "Reference" "R26" (at 232.537 103.378 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100E" (at 234.061 103.378 0)
@@ -3669,12 +3651,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R22") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3683,7 +3665,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:R_Small") (at 261.62 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 346a74d4-618f-40f9-a779-84d9b498942d)
-    (property "Reference" "R23" (at 262.382 115.062 0)
+    (property "Reference" "R27" (at 262.382 115.062 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k6" (at 262.382 116.586 0)
@@ -3700,12 +3682,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R23") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3714,7 +3696,7 @@
   (symbol (lib_id "Device:R_Small") (at 88.9 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 351e6fa9-325c-46bf-a0ce-7e59dea1c658)
-    (property "Reference" "R7" (at 90.805 80.645 0)
+    (property "Reference" "R3" (at 90.805 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150k" (at 90.805 83.185 0)
@@ -3731,7 +3713,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3746,7 +3728,7 @@
     (property "Value" "Conn_01x09" (at 257.81 193.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" (at 255.27 191.77 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" (at 255.27 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 191.77 0)
@@ -3773,7 +3755,7 @@
   (symbol (lib_id "Device:C_Small") (at 67.31 135.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 385f0c10-2c21-4b66-9388-e159359f243f)
-    (property "Reference" "C8" (at 69.85 134.6263 0)
+    (property "Reference" "C2" (at 69.85 134.6263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (at 69.85 137.1663 0)
@@ -3790,7 +3772,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C8") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3827,7 +3809,7 @@
   (symbol (lib_id "Device:R_Small") (at 164.465 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f70b4be-8ce0-4667-85e7-36e3b4acff23)
-    (property "Reference" "R2" (at 167.005 74.295 0)
+    (property "Reference" "R13" (at 167.005 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 167.005 76.835 0)
@@ -3844,7 +3826,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R2") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3879,7 +3861,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46d764f6-d38f-4e6c-b7fc-f355739e50c1)
-    (property "Reference" "R11" (at 104.14 80.645 0)
+    (property "Reference" "R6" (at 104.14 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180k" (at 104.14 83.185 0)
@@ -3896,6 +3878,32 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 124.46 102.87 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4a153b24-4d05-4fb2-96a4-91956f70a4ff)
+    (property "Reference" "R11" (at 124.46 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10m" (at 124.46 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 124.46 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff79ad2c-3086-4148-8e8d-6f058b5a58d6))
+    (pin "2" (uuid 462600a4-b12e-40ec-8213-6a3164a0eb6f))
+    (instances
+      (project "breakout-board-power-measurement"
+        (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
           (reference "R11") (unit 1)
         )
       )
@@ -3905,7 +3913,7 @@
   (symbol (lib_id "Device:C_Small") (at 292.1 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a9ce98c-f879-45b3-85bc-9a9d9feb6033)
-    (property "Reference" "C12" (at 294.64 150.5013 0)
+    (property "Reference" "C16" (at 294.64 150.5013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 294.64 153.0413 0)
@@ -3922,7 +3930,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C12") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3931,7 +3939,7 @@
   (symbol (lib_id "Device:R_Small") (at 229.87 184.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4de4a377-b23d-40f6-9802-68ccb2169dd7)
-    (property "Reference" "R17" (at 229.87 179.07 90)
+    (property "Reference" "R24" (at 229.87 179.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 229.87 181.61 90)
@@ -3948,7 +3956,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R17") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3957,7 +3965,7 @@
   (symbol (lib_id "power:GNDA") (at 105.41 182.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53abaca7-978b-4714-8371-069e1f833d69)
-    (property "Reference" "#PWR011" (at 105.41 189.23 0)
+    (property "Reference" "#PWR02" (at 105.41 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 105.41 187.96 0)
@@ -3973,7 +3981,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3982,7 +3990,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:R_Small") (at 271.78 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54791536-d078-49b2-8e16-2442c0a78acd)
-    (property "Reference" "R24" (at 272.542 106.807 0)
+    (property "Reference" "R28" (at 272.542 106.807 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 272.542 108.331 0)
@@ -3999,12 +4007,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R24") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "R12") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -4013,7 +4021,7 @@
   (symbol (lib_id "Device:R_Small") (at 170.815 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 567cd9be-fe03-4bb8-9326-d9ea29217998)
-    (property "Reference" "R5" (at 170.815 96.52 90)
+    (property "Reference" "R16" (at 170.815 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 170.815 99.06 90)
@@ -4030,7 +4038,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R5") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4039,7 +4047,7 @@
   (symbol (lib_id "Device:C_Small") (at 177.165 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57e03421-def6-42f9-9e35-56102f4e5522)
-    (property "Reference" "C1" (at 179.705 66.6813 0)
+    (property "Reference" "C3" (at 179.705 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.705 69.2213 0)
@@ -4056,7 +4064,33 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 116.84 102.87 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 59dbb5fb-63dd-4dcd-91b5-b9414d92e77a)
+    (property "Reference" "R10" (at 116.84 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10m" (at 116.84 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 116.84 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.84 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 901e8e62-ee34-40ad-9253-845ed8195f51))
+    (pin "2" (uuid f05de4a8-31b2-44d3-b974-9bc236bb0163))
+    (instances
+      (project "breakout-board-power-measurement"
+        (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4065,7 +4099,7 @@
   (symbol (lib_id "Device:R_Small") (at 227.33 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ca87fd7-f6b9-4539-b265-b8b553b557b6)
-    (property "Reference" "R14" (at 229.87 69.215 0)
+    (property "Reference" "R23" (at 229.87 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10E" (at 229.87 71.755 0)
@@ -4082,7 +4116,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R14") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4097,7 +4131,7 @@
     (property "Value" "150n/300m" (at 218.821 103.378 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 217.805 104.14 0)
+    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 217.805 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 217.805 104.14 0)
@@ -4113,7 +4147,7 @@
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "L4") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
     )
@@ -4122,7 +4156,7 @@
   (symbol (lib_id "Device:C_Small") (at 190.5 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61e946e5-ef0f-4ef5-a553-ce9700bc33b1)
-    (property "Reference" "C5" (at 193.04 145.4086 0)
+    (property "Reference" "C8" (at 193.04 145.4086 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 193.04 147.9486 0)
@@ -4139,7 +4173,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C5") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4148,7 +4182,7 @@
   (symbol (lib_id "power:GNDD") (at 237.49 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65b92c11-5932-4d24-9d29-05d4ef883e20)
-    (property "Reference" "#PWR015" (at 237.49 127 0)
+    (property "Reference" "#PWR011" (at 237.49 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 237.49 125.73 0)
@@ -4164,7 +4198,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4199,7 +4233,7 @@
   (symbol (lib_id "Device:R_Small") (at 217.17 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69daef16-f1ce-4d26-bff3-3140ebe91571)
-    (property "Reference" "R21" (at 217.17 176.53 90)
+    (property "Reference" "R18" (at 217.17 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 217.17 179.07 90)
@@ -4216,7 +4250,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R21") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4225,7 +4259,7 @@
   (symbol (lib_id "Device:R_Small") (at 223.52 196.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70ed5cab-32fb-4496-a90d-15fe1842c211)
-    (property "Reference" "R18" (at 223.52 191.77 90)
+    (property "Reference" "R22" (at 223.52 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 223.52 194.31 90)
@@ -4242,7 +4276,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R18") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4251,7 +4285,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:D_Zener_Small_ALT") (at 237.49 111.76 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 758495f3-c217-4f7d-b145-21a09d9ff7e1)
-    (property "Reference" "D3" (at 239.776 111.76 0)
+    (property "Reference" "D1" (at 239.776 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BZG03C15G" (at 235.204 111.76 0)
@@ -4268,12 +4302,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -4282,7 +4316,7 @@
   (symbol (lib_id "power:GNDD") (at 232.41 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 793dd0c8-2dcb-4dc3-af28-1d1f2ab4cd6e)
-    (property "Reference" "#PWR012" (at 232.41 170.18 0)
+    (property "Reference" "#PWR010" (at 232.41 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 232.41 168.91 0)
@@ -4298,7 +4332,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4307,13 +4341,13 @@
   (symbol (lib_id "Device:L_Small") (at 163.195 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c6f82aa-72a9-4246-b5c4-e377245be17c)
-    (property "Reference" "L2" (at 163.195 97.79 90)
+    (property "Reference" "L3" (at 163.195 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150n/300m" (at 163.195 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 163.195 101.6 0)
+    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 163.195 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.195 101.6 0)
@@ -4324,7 +4358,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "L2") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -4333,7 +4367,7 @@
   (symbol (lib_id "Converter_DCDC:IA0505S") (at 270.51 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cc38d59-77e0-4f15-9419-bd72bebbc784)
-    (property "Reference" "PS2" (at 270.51 60.96 0)
+    (property "Reference" "PS1" (at 270.51 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "IA0505S" (at 270.51 63.5 0)
@@ -4353,7 +4387,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "PS2") (unit 1)
+          (reference "PS1") (unit 1)
         )
       )
     )
@@ -4362,13 +4396,13 @@
   (symbol (lib_id "Device:L_Small") (at 88.9 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80a91c3d-ee9d-4c3b-8f12-e1ad72b2cb4a)
-    (property "Reference" "L3" (at 90.17 65.405 0)
+    (property "Reference" "L1" (at 90.17 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150n/300m" (at 90.17 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 88.9 66.04 0)
+    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 88.9 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 66.04 0)
@@ -4379,7 +4413,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "L3") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -4388,7 +4422,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:C_Small") (at 280.035 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83db0b91-1ea1-4d64-aa24-fd3d1c19b975)
-    (property "Reference" "C15" (at 280.289 106.172 0)
+    (property "Reference" "C14" (at 280.289 106.172 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 280.289 109.982 0)
@@ -4405,12 +4439,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4419,7 +4453,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 879eaf04-85df-470c-a573-fa9197212651)
-    (property "Reference" "R10" (at 104.14 73.025 0)
+    (property "Reference" "R5" (at 104.14 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180k" (at 104.14 75.565 0)
@@ -4436,7 +4470,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R10") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4485,7 +4519,7 @@
   (symbol (lib_id "Device:C_Small") (at 177.165 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89c165a1-a1f9-4aa1-b2c1-b1b657d3947e)
-    (property "Reference" "C4" (at 179.705 97.1613 0)
+    (property "Reference" "C6" (at 179.705 97.1613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.705 99.7013 0)
@@ -4502,7 +4536,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4511,7 +4545,7 @@
   (symbol (lib_id "Device:C_Small") (at 177.165 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e521f66-1d9a-4d10-90c2-4e5931db2aba)
-    (property "Reference" "C2" (at 179.705 74.3013 0)
+    (property "Reference" "C4" (at 179.705 74.3013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.705 76.8413 0)
@@ -4528,7 +4562,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -4537,7 +4571,7 @@
   (symbol (lib_id "Device:R_Small") (at 164.465 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f5c4984-c5ae-439a-8b0e-fc50121e5bd4)
-    (property "Reference" "R1" (at 167.005 66.675 0)
+    (property "Reference" "R12" (at 167.005 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 167.005 69.215 0)
@@ -4554,7 +4588,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R1") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4563,7 +4597,7 @@
   (symbol (lib_id "Device:R_Small") (at 223.52 186.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96283dc2-fddb-480a-9789-e945fa0e9b52)
-    (property "Reference" "R19" (at 223.52 181.61 90)
+    (property "Reference" "R20" (at 223.52 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 223.52 184.15 90)
@@ -4580,7 +4614,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4589,7 +4623,7 @@
   (symbol (lib_id "power:GNDD") (at 227.33 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97651dfa-f633-4567-a761-7e0a11c0ebb7)
-    (property "Reference" "#PWR010" (at 227.33 88.9 0)
+    (property "Reference" "#PWR09" (at 227.33 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 227.33 87.63 0)
@@ -4605,7 +4639,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4620,7 +4654,7 @@
     (property "Value" "Conn_01x02" (at 293.37 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 290.83 68.58 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 290.83 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 290.83 68.58 0)
@@ -4640,7 +4674,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:C_Small") (at 225.425 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aca2a674-7cf4-4b8b-b74d-2b4608a46f56)
-    (property "Reference" "C13" (at 223.647 103.886 0)
+    (property "Reference" "C10" (at 223.647 103.886 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470n/530" (at 227.457 103.886 0)
@@ -4657,12 +4691,38 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C13") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 109.22 102.87 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ad2d12e7-4f11-4134-9f36-3a2d8bed090c)
+    (property "Reference" "R8" (at 109.22 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10m" (at 109.22 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 109.22 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0a5978c3-723c-43bd-9648-9946355f57f2))
+    (pin "2" (uuid bb2ed633-d2eb-40e4-9dd9-e9443fd5debd))
+    (instances
+      (project "breakout-board-power-measurement"
+        (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4723,7 +4783,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:CP_Small") (at 251.46 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b18514c2-655b-41f2-9420-584882118108)
-    (property "Reference" "C14" (at 251.206 107.442 0)
+    (property "Reference" "C13" (at 251.206 107.442 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470u" (at 251.206 111.252 0)
@@ -4740,12 +4800,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "C11") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4754,7 +4814,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.23 130.175 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbcb1752-2a36-4081-ae9c-c37701236ec9)
-    (property "Reference" "R12" (at 62.23 135.255 90)
+    (property "Reference" "R1" (at 62.23 135.255 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 62.23 132.715 90)
@@ -4771,7 +4831,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R12") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4780,7 +4840,7 @@
   (symbol (lib_id "Device:R_Small") (at 170.815 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cee81a66-53d3-4d5f-b27a-582515f12c84)
-    (property "Reference" "R3" (at 170.815 58.42 90)
+    (property "Reference" "R14" (at 170.815 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 170.815 60.96 90)
@@ -4797,25 +4857,25 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R3") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 121.92 60.96 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 92.71 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cffca98f-c885-4ec5-8728-035c5431c5bc)
-    (property "Reference" "R9" (at 121.92 55.88 90)
+    (property "Reference" "R4" (at 92.71 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "50m" (at 121.92 58.42 90)
+    (property "Value" "10m" (at 92.71 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (at 121.92 60.96 0)
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 92.71 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 60.96 0)
+    (property "Datasheet" "~" (at 92.71 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7eb2f19b-8cad-4259-9042-ae58017b7eaf))
@@ -4823,7 +4883,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R9") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4859,7 +4919,7 @@
   (symbol (lib_id "Device:C_Small") (at 227.33 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0b21352-81b6-459d-a098-fd4c7ec89db0)
-    (property "Reference" "C10" (at 229.87 76.8413 0)
+    (property "Reference" "C11" (at 229.87 76.8413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 229.87 79.3813 0)
@@ -4876,7 +4936,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4885,7 +4945,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:D_Small") (at 245.745 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1f088c9-b56a-4d4f-b784-549c65c2ac10)
-    (property "Reference" "D4" (at 247.015 106.172 0)
+    (property "Reference" "D2" (at 247.015 106.172 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MRA4005T3G" (at 249.555 102.108 0)
@@ -4902,42 +4962,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "D4") (unit 1)
-        )
-      )
-      (project "Power Analyzer"
-        (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
           (reference "D2") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Power-Analyzer-rescue:+3.3V") (at 287.02 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d1f4d9b9-0779-461b-b03f-1fb00490c7ff)
-    (property "Reference" "#PWR014" (at 287.02 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 287.02 96.774 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 287.02 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 287.02 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 86c94bd4-57e8-466d-acc9-535c3d690932))
-    (instances
-      (project "breakout-board-power-measurement"
-        (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR014") (unit 1)
-        )
-      )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "#PWR010") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -4946,7 +4976,7 @@
   (symbol (lib_id "Device:C_Small") (at 229.87 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc96c75e-5794-4402-9d3d-3ebbd76a97f1)
-    (property "Reference" "C11" (at 227.33 150.5013 0)
+    (property "Reference" "C12" (at 227.33 150.5013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 227.33 153.0413 0)
@@ -4963,7 +4993,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4972,7 +5002,7 @@
   (symbol (lib_id "Device:C_Small") (at 177.165 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de8188f9-35de-43c1-bf49-31968fc6b4e2)
-    (property "Reference" "C3" (at 179.705 89.5413 0)
+    (property "Reference" "C5" (at 179.705 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.705 92.0813 0)
@@ -4989,7 +5019,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4998,7 +5028,7 @@
   (symbol (lib_id "Device:R_Small") (at 223.52 189.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid defaadc0-50a9-4007-90e8-c13691c4d2fc)
-    (property "Reference" "R15" (at 223.52 184.15 90)
+    (property "Reference" "R21" (at 223.52 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 223.52 186.69 90)
@@ -5015,7 +5045,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R15") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5024,7 +5054,7 @@
   (symbol (lib_id "power:GNDA") (at 186.69 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfc1deca-34ca-4cbf-8f86-5d675f638d9c)
-    (property "Reference" "#PWR04" (at 186.69 157.48 0)
+    (property "Reference" "#PWR06" (at 186.69 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 186.69 156.21 0)
@@ -5040,7 +5070,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5049,7 +5079,7 @@
   (symbol (lib_id "Power-Analyzer-rescue:CP_Small") (at 287.02 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e148981d-4964-4278-9eaf-c724e8df1f26)
-    (property "Reference" "C16" (at 287.274 106.172 0)
+    (property "Reference" "C15" (at 287.274 106.172 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u/50" (at 287.274 109.982 0)
@@ -5066,12 +5096,12 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "Power Analyzer"
         (path "/9812d557-1697-4d18-a8c9-d1964e99ea5e"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5080,13 +5110,13 @@
   (symbol (lib_id "Device:L_Small") (at 163.195 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eabb7053-68c1-4775-89f7-168e315bc9a6)
-    (property "Reference" "L1" (at 163.195 82.55 90)
+    (property "Reference" "L2" (at 163.195 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150n/300m" (at 163.195 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5" (at 163.195 86.36 0)
+    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 163.195 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.195 86.36 0)
@@ -5097,7 +5127,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -5106,7 +5136,7 @@
   (symbol (lib_id "Device:R_Small") (at 217.17 194.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb4f9153-d7e4-4d20-831b-6913365c15ed)
-    (property "Reference" "R16" (at 217.17 191.77 90)
+    (property "Reference" "R19" (at 217.17 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 217.17 196.85 90)
@@ -5123,7 +5153,33 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R16") (unit 1)
+          (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 101.6 102.87 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ec217ed2-3da3-4d65-85e6-0e87a13eaf79)
+    (property "Reference" "R7" (at 101.6 97.79 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10m" (at 101.6 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 101.6 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cc75c959-924e-45aa-ad29-067116145c0f))
+    (pin "2" (uuid 4aed1a3d-6cfb-47fe-b631-6a4d178d9db2))
+    (instances
+      (project "breakout-board-power-measurement"
+        (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5201,7 +5257,7 @@
   (symbol (lib_id "Device:R_Small") (at 229.87 191.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0dcc3c7-651c-45a9-aa92-52a8befc955d)
-    (property "Reference" "R20" (at 229.87 186.69 90)
+    (property "Reference" "R25" (at 229.87 186.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10E" (at 229.87 189.23 90)
@@ -5218,7 +5274,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "R20") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -5253,7 +5309,7 @@
   (symbol (lib_id "power:GNDD") (at 62.23 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fee03a8d-26e6-4dda-bc9d-e63f3866edff)
-    (property "Reference" "#PWR06" (at 62.23 146.685 0)
+    (property "Reference" "#PWR01" (at 62.23 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 62.23 145.415 0)
@@ -5269,7 +5325,7 @@
     (instances
       (project "breakout-board-power-measurement"
         (path "/433e477a-c382-4a77-a1aa-b42c4a1fe28b"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
