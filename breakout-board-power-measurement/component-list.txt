@@ -1,0 +1,15 @@
+Shunts 10x:
+Einer davon:
+	https://www.mouser.at/c/passive-components/resistors/?q=shunt%20resistor&case%20code%20-%20in=1206&power%20rating=1%20W~~1.5%20W&resistance=10%20mOhms&rp=passive-components%2Fresistors%7C~Power%20Rating
+z.B:
+	https://www.mouser.at/ProductDetail/SEI-Stackpole/CSNL1206FT10L0?qs=IPgv5n7u5QaI49TqMum75g%3D%3D
+	
+oder:
+	https://www.distrelec.at/de/shunt-10mohm-metallschicht-1w-ohmite-fc4l32r010fer/p/30229675?trackQuery=cat-DNAV_PL_030702&pos=8&origPos=8&origPageSize=50&track=true
+oder:
+	https://at.rs-online.com/web/p/smd-widerstande/1260359
+	
+Spulen: 10x
+	https://at.rs-online.com/web/p/smd-induktivitat/1675875
+oder:
+	https://at.rs-online.com/web/p/smd-induktivitat/7474751
