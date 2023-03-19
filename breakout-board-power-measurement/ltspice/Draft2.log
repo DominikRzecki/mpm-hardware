@@ -1,0 +1,25 @@
+Circuit: * I:\home\dominik\Documents\Projects\MPM\mpm-hardware\breakout-board-power-measurement\ltspice\Draft2.asc
+
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by L1.
+WARNING: Less than two connections to node NC_02.  This node is used by L1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Mar 18 15:09:39 2023
+Total elapsed time: 3972.467 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 197932179
+traniter = 197932176
+tranpoints = 98966089
+accept = 78278657
+rejected = 20687432
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1: 146 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 320 bytes object code size  0.2/0.3/[0.2]
+

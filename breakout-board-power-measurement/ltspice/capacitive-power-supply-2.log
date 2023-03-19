@@ -1,0 +1,22 @@
+Circuit: * I:\home\dominik\Documents\Projects\MPM\mpm-hardware\breakout-board-power-measurement\ltspice\capacitive-power-supply-2.asc
+
+Warning: Multiple definitions of model "1n750" Type: Diode
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Sat Mar 18 13:44:52 2023
+Total elapsed time: 0.370 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 33964
+traniter = 33964
+tranpoints = 9789
+accept = 6915
+rejected = 2874
+matrix size = 25
+fillins = 21
+solver = Normal
+Matrix Compiler1: 2.64 KB object code size  0.7/0.4/[0.3]
+Matrix Compiler2: 2.39 KB object code size  0.3/0.4/[0.3]
+
