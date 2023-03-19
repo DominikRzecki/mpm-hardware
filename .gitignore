@@ -26,4 +26,5 @@ fp-info-cache
 *.csv
 
 #LTSpice raw files
-.raw
+*.raw
+*.op.raw
