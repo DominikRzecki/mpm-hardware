@@ -3,20 +3,20 @@ Circuit: * I:\home\dominik\Documents\Projects\MPM\mpm-hardware\breakout-board-po
 Warning: Multiple definitions of model "1n750" Type: Diode
 Per .tran options, skipping operating point for transient analysis.
 
-Date: Sat Mar 18 13:44:52 2023
-Total elapsed time: 0.370 seconds.
+Date: Fri Mar 24 16:52:40 2023
+Total elapsed time: 4.020 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 33964
-traniter = 33964
-tranpoints = 9789
-accept = 6915
-rejected = 2874
-matrix size = 25
-fillins = 21
+totiter = 993230
+traniter = 993230
+tranpoints = 359159
+accept = 247775
+rejected = 111384
+matrix size = 26
+fillins = 24
 solver = Normal
-Matrix Compiler1: 2.64 KB object code size  0.7/0.4/[0.3]
-Matrix Compiler2: 2.39 KB object code size  0.3/0.4/[0.3]
+Matrix Compiler1: 2.80 KB object code size  1.0/0.8/[0.5]
+Matrix Compiler2: 2.50 KB object code size  0.6/0.8/[0.5]
 
