@@ -1,4 +1,4 @@
-Shunts 10x:
+Shunts 11x:
 Einer davon:
 	https://www.mouser.at/c/passive-components/resistors/?q=shunt%20resistor&case%20code%20-%20in=1206&power%20rating=1%20W~~1.5%20W&resistance=10%20mOhms&rp=passive-components%2Fresistors%7C~Power%20Rating
 z.B:
@@ -9,7 +9,13 @@ oder:
 oder:
 	https://at.rs-online.com/web/p/smd-widerstande/1260359
 	
-Spulen: 10x
+Spulen: 11x
 	https://at.rs-online.com/web/p/smd-induktivitat/1675875
 oder:
 	https://at.rs-online.com/web/p/smd-induktivitat/7474751
+	
+Oszillator 2x:
+	https://at.rs-online.com/web/p/schwingquarz/6938803
+	
+Kondensator 5x:
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/1466584
