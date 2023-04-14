@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-04-14T14:06:49+02:00"
+    "CreationDate": "2023-04-14T14:15:59+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "ATtiny-final",
-      "GUID": "41547469-6e79-42d6-9669-6e616c2e6b69",
+      "Name": "display-brain-final",
+      "GUID": "64697370-6c61-4792-9d62-7261696e2d66",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 19.572,
-      "Y": 19.5
+      "X": 104.3,
+      "Y": 68.1
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -27,7 +27,7 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.35,
+      "MinLineWidth": 0.25,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     },
@@ -42,27 +42,32 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "ATtiny-final-F_Cu.gbr",
+      "Path": "display-brain-final-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ATtiny-final-In1_Cu.gbr",
+      "Path": "display-brain-final-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ATtiny-final-In2_Cu.gbr",
+      "Path": "display-brain-final-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ATtiny-final-B_Cu.gbr",
+      "Path": "display-brain-final-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ATtiny-final-Edge_Cuts.gbr",
+      "Path": "display-brain-final-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "display-brain-final-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

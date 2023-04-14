@@ -59,7 +59,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x0001000_ffffffff)
+      (layerselection 0x0001020_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -630,6 +630,9 @@
   )
   (gr_text "PB0/XDIR0/SCL" (at 134.912 93.976) (layer "F.SilkS") (tstamp 4c3492a7-f6dc-4bb4-b06f-97a7500dcc5c)
     (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "." (at 155.3 102.7) (layer "F.SilkS") (tstamp 7677b876-c030-4de3-a0b0-918999e0d047)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
   (gr_text "GND" (at 139.357 106.895819) (layer "F.SilkS") (tstamp a54cf45d-9933-48b8-9db6-69ef3adb5c16)
     (effects (font (size 1 1) (thickness 0.15)))
