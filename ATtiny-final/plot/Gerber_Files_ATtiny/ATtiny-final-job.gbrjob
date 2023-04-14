@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-04-14T14:15:19+02:00"
+    "CreationDate": "2023-04-14T16:10:04+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -62,9 +62,29 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "ATtiny-final-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ATtiny-final-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "ATtiny-final-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ATtiny-final-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "ATtiny-final-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "ATtiny-final-Edge_Cuts.gbr",

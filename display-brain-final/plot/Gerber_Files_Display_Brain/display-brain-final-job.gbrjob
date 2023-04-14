@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-04-14T14:15:59+02:00"
+    "CreationDate": "2023-04-14T16:10:36+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -62,9 +62,29 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "display-brain-final-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "display-brain-final-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "display-brain-final-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "display-brain-final-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "display-brain-final-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "display-brain-final-Edge_Cuts.gbr",
