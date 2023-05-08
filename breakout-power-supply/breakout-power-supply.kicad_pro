@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 3.98
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,16 +45,10 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,30 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.3,
-        0.4,
-        0.5,
-        0.6,
-        0.8,
-        1.0,
-        2.0,
-        2.5,
-        2.75,
-        2.875,
-        3.0,
-        4.5,
-        5.0,
-        6.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -420,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "power-measurement-final.kicad_pro",
+    "filename": "breakout-power-supply.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -497,7 +469,7 @@
   },
   "sheets": [
     [
-      "57993fa3-3e01-4ac4-9647-cdba40596160",
+      "e5d0a75f-f6f8-466d-a814-05ba0ac7239d",
       ""
     ]
   ],
